@@ -2,10 +2,10 @@ import Header from './Components/Header/Header'
 import './App.css'
 import { Route, Routes } from "react-router-dom";
 import Home from './Pages/Home/Home';
-import About from './Components/About/About';
-import Shows from './Components/Shows/Shows'
-import Music from './Components/Music/Music';
-import Contact from './Components/Contact/Contact';
+import About from './Pages/About/About';
+import Shows from './Pages/Shows/Shows'
+import Music from './Pages/Music/Music';
+import Contact from './Pages/Contact/Contact';
 
 function App() {
 

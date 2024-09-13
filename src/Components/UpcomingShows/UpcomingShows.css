@@ -1,0 +1,12 @@
+.upcoming-shows-main{
+    font-family: var(--FONT-ONE);
+}
+
+.upcoming-shows-title{
+    color: var(--COLOR-ONE);
+}
+
+.date-shows{
+    color: var(--COLOR-FOUR);
+    border-bottom: var(--BORDER-THREE);
+}
