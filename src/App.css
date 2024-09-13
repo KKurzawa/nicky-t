@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  /* css variables */
+
+  /* colors */
+  --COLOR-ONE: hsl(0, 67%, 53%);
+  --COLOR-TWO: hsl(0, 0%, 100%);
+  --COLOR-THREE: hsla(0, 0%, 100%, 0.268);
+
+  /* fonts  */
+  --FONT-ONE: "Arimo", sans-serif;
+
+  /* borders  */
+  --BORDER-ONE: solid 2px var(--COLOR-TWO);
+  --BORDER-TWO: solid 2px transparent;
+}

@@ -1,0 +1,5 @@
+.header{
+    background-color: var(--COLOR-ONE);
+    color: var(--COLOR-TWO);
+    font-family: var(--FONT-ONE);
+  }

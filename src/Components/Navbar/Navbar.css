@@ -1,0 +1,37 @@
+.nav-link{
+    transition: all .25s linear;
+    border-bottom: var(--BORDER-TWO);
+}
+
+.active{
+    position: relative;
+    border-bottom: var(--BORDER-ONE);
+}
+
+.nav-link::before{
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    content: '';
+    width: 0;
+    border-bottom: var(--BORDER-ONE);
+    transition: all .25s linear;
+}
+
+.nav-link::after{
+    position: absolute;
+    bottom: -2px;
+    right: 50%;
+    content: '';
+    width: 0;
+    border-bottom: var(--BORDER-ONE);
+    transition: all .25s linear;
+}
+
+.nav-link:hover:after,
+.nav-link:hover:before{
+    width: 50%;
+}
+
+
+

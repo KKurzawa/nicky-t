@@ -1,0 +1,7 @@
+.mobile-media-icon{
+    transition: all .25s linear;
+}
+
+.mobile-media-icon:hover{
+    background-color: var(--COLOR-THREE);
+}
