@@ -1,13 +1,13 @@
 .shows-main{
-    font-family: var(--FONT-ONE);
+    font-family: var(--FONT-SIX);
 }
 
 .shows-title{
-    color: var(--COLOR-ONE);
+    color: var(--COLOR-SIX);
 }
 
 .date-shows{
-    color: var(--COLOR-FOUR);
+    color: var(--COLOR-EIGHT);
     border-bottom: var(--BORDER-THREE);
 }
 
@@ -17,11 +17,11 @@
 }
 
 .date-time{
-    color: var(--COLOR-ONE);
+    color: var(--COLOR-SIX);
 }
 
 .venue{
-    color: var(--COLOR-ONE);
+    color: var(--COLOR-SIX);
     position: relative;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .location{
-    color: var(--COLOR-FOUR);
+    color: var(--COLOR-EIGHT);
     position: relative;
 }
 

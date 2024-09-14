@@ -3,11 +3,11 @@
 }
 
 .upcoming-shows-title{
-    color: var(--COLOR-ONE);
+    color: var(--COLOR-SIX);
 }
 
 .upcoming-date-shows{
-    color: var(--COLOR-FOUR);
+    color: var(--COLOR-EIGHT);
 }
 
 .upcoming-shows-container{
@@ -15,11 +15,11 @@
 }
 
 .upcoming-date-time{
-    color: var(--COLOR-ONE);
+    color: var(--COLOR-SIX);
 }
 
 .upcoming-venue{
-    color: var(--COLOR-ONE);
+    color: var(--COLOR-SIX);
     position: relative;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .upcoming-location{
-    color: var(--COLOR-FOUR);
+    color: var(--COLOR-EIGHT);
     position: relative;
 }
 

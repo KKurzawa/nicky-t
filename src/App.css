@@ -10,14 +10,22 @@
   --COLOR-TWO: hsl(0, 0%, 100%);
   --COLOR-THREE: hsla(0, 0%, 100%, 0.268);
   --COLOR-FOUR: hsla(0, calc(0 * 1%), calc(20 * 1%), .5);
-
+  --COLOR-FIVE: #1A1D20;
+  --COLOR-SIX: #8F6E31;
+  --COLOR-SEVEN: #EBEBEB;
+  --COLOR-EIGHT: #999999;
+  --COLOR-NINE: #ebebeb2f;
   /* fonts  */
   --FONT-ONE: "Arimo", sans-serif;
 
   /* borders  */
-  --BORDER-ONE: solid 2px var(--COLOR-TWO);
+  --BORDER-ONE: solid 2px var(--COLOR-FIVE);
   --BORDER-TWO: solid 2px transparent;
-  --BORDER-THREE: solid 2px var(--COLOR-FOUR);
-  --BORDER-FOUR: solid 1px var(--COLOR-ONE);
-  --BORDER-FIVE: solid 1px var(--COLOR-FOUR);
+  --BORDER-THREE: solid 2px var(--COLOR-EIGHT);
+  --BORDER-FOUR: solid 1px var(--COLOR-SIX);
+  --BORDER-FIVE: solid 1px var(--COLOR-EIGHT);
+}
+
+html{
+  background-color: var(--COLOR-FIVE);
 }
