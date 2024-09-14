@@ -18,4 +18,6 @@
   --BORDER-ONE: solid 2px var(--COLOR-TWO);
   --BORDER-TWO: solid 2px transparent;
   --BORDER-THREE: solid 2px var(--COLOR-FOUR);
+  --BORDER-FOUR: solid 1px var(--COLOR-ONE);
+  --BORDER-FIVE: solid 1px var(--COLOR-FOUR);
 }

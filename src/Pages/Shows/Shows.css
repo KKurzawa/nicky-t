@@ -1,0 +1,81 @@
+.shows-main{
+    font-family: var(--FONT-ONE);
+}
+
+.shows-title{
+    color: var(--COLOR-ONE);
+}
+
+.date-shows{
+    color: var(--COLOR-FOUR);
+    border-bottom: var(--BORDER-THREE);
+}
+
+.shows-container,
+.small-shows-container{
+    border-bottom: var(--BORDER-THREE);
+}
+
+.date-time{
+    color: var(--COLOR-ONE);
+}
+
+.venue{
+    color: var(--COLOR-ONE);
+    position: relative;
+}
+
+.venue::before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    border-bottom: var(--BORDER-FOUR);
+    transition: all .25s linear;
+}
+
+.venue::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    right: 50%;
+    width: 0;
+    border-bottom: var(--BORDER-FOUR);
+    transition: all .25s linear;
+}
+
+.venue:hover::before,
+.venue:hover::after{
+    width: 50%;
+}
+
+.location{
+    color: var(--COLOR-FOUR);
+    position: relative;
+}
+
+.location::before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    border-bottom: var(--BORDER-FIVE);
+    transition: all .25s linear;
+}
+
+.location::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    right: 50%;
+    width: 0;
+    border-bottom: var(--BORDER-FIVE);
+    transition: all .25s linear;
+}
+
+.location:hover::before,
+.location:hover::after{
+    width: 50%;
+}

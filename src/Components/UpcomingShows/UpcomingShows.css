@@ -6,7 +6,75 @@
     color: var(--COLOR-ONE);
 }
 
-.date-shows{
+.upcoming-date-shows{
     color: var(--COLOR-FOUR);
+}
+
+.upcoming-shows-container{
     border-bottom: var(--BORDER-THREE);
+}
+
+.upcoming-date-time{
+    color: var(--COLOR-ONE);
+}
+
+.upcoming-venue{
+    color: var(--COLOR-ONE);
+    position: relative;
+}
+
+.upcoming-venue::before{
+    position: absolute;
+    content: '';
+    width: 0;
+    bottom: 0;
+    left: 50%;
+    transition: all .25s linear;
+    border-bottom: var(--BORDER-FOUR);
+}
+
+.upcoming-venue::after{
+    position: absolute;
+    content: '';
+    width: 0;
+    bottom: 0;
+    right: 50%;
+    transition: all .25s linear;
+    border-bottom: var(--BORDER-FOUR);
+}
+
+.upcoming-venue:hover::before,
+.upcoming-venue:hover::after{
+    width: 50%;
+}
+
+.upcoming-location{
+    color: var(--COLOR-FOUR);
+    position: relative;
+}
+
+
+.upcoming-location::before{
+    position: absolute;
+    content: '';
+    width: 0;
+    bottom: 0;
+    left: 50%;
+    transition: all .25s linear;
+    border-bottom: var(--BORDER-FIVE);
+}
+
+.upcoming-location::after{
+    position: absolute;
+    content: '';
+    width: 0;
+    bottom: 0;
+    right: 50%;
+    transition: all .25s linear;
+    border-bottom: var(--BORDER-FIVE);
+}
+
+.upcoming-location:hover::before,
+.upcoming-location:hover::after{
+    width: 50%;
 }
