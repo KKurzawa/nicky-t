@@ -24,6 +24,7 @@
   --BORDER-THREE: solid 2px var(--COLOR-EIGHT);
   --BORDER-FOUR: solid 1px var(--COLOR-SIX);
   --BORDER-FIVE: solid 1px var(--COLOR-EIGHT);
+  --BORDER-SIX: solid 1px var(--COLOR-FIVE);
 }
 
 html{

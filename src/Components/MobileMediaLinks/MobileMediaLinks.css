@@ -3,5 +3,6 @@
 }
 
 .mobile-media-icon:hover{
-    background-color: var(--COLOR-THREE);
+    background-color: var(--COLOR-FIVE);
+    color: var(--COLOR-SIX);
 }

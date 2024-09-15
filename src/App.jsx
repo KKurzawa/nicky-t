@@ -6,11 +6,12 @@ import About from './Pages/About/About';
 import Shows from './Pages/Shows/Shows'
 import Music from './Pages/Music/Music';
 import Contact from './Pages/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 
 function App() {
 
   return (
-    <div className="App">
+    <main className="App">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -19,7 +20,8 @@ function App() {
         <Route path="/Music" element={<Music />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
-    </div>
+      <Footer />
+    </main>
   )
 }
 

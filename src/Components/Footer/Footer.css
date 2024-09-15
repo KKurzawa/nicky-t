@@ -1,0 +1,48 @@
+.footer-main{
+    background-color: var(--COLOR-SIX);
+    color: var(--COLOR-FIVE);
+}
+
+.top-btn,
+.email-btn,
+.dev-link{
+    position: relative;
+}
+
+.top-btn::before,
+.email-btn::before,
+.dev-link::before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    border-bottom: var(--BORDER-SIX);
+    transition: all .25s linear;
+}
+
+.top-btn::after,
+.email-btn::after,
+.dev-link::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    right: 50%;
+    width: 0;
+    border-bottom: var(--BORDER-SIX);
+    transition: all .25s linear;
+}
+
+/* .top-btn:hover::before,
+.top-btn:before::after{
+    width: 50%;
+} */
+
+.top-btn:hover::before,
+.top-btn:hover::after,
+.email-btn:hover::before,
+.email-btn:hover::after,
+.dev-link:hover::before,
+.dev-link:hover::after{
+    width: 50%;
+}
