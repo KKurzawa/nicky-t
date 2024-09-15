@@ -3,5 +3,6 @@
 }
 
 .media-icon:hover{
-    background-color: var(--COLOR-NINE);
+    background-color: var(--COLOR-FIVE);
+    color: var(--COLOR-SIX);
 }
