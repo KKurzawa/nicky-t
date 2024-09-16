@@ -23,12 +23,12 @@ const navLinks = [
         link: '/Music',
         delay: 1.1,
     },
-    {
-        key: 5,
-        title: 'CONTACT',
-        link: '/Contact',
-        delay: 1.3,
-    },
+    // {
+    //     key: 5,
+    //     title: 'CONTACT',
+    //     link: '/Contact',
+    //     delay: 1.3,
+    // },
 ]
 
 export default navLinks

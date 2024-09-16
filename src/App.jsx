@@ -5,7 +5,7 @@ import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import Shows from './Pages/Shows/Shows'
 import Music from './Pages/Music/Music';
-import Contact from './Pages/Contact/Contact';
+import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 
 function App() {

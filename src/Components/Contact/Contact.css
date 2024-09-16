@@ -1,0 +1,41 @@
+.contact-title{
+    color: var(--COLOR-SIX)
+}
+
+.name,
+.email,
+.subject,
+.message{
+    background-color: var(--COLOR-FIVE);
+    color: var(--COLOR-SIX);
+    border: var(--BORDER-FIVE);
+    border-radius: .5rem;
+    padding: 3px 7px;
+    
+}
+
+.name::placeholder,
+.email::placeholder,
+.subject::placeholder,
+.message::placeholder{
+    color: var(--COLOR-NINE);
+}
+
+.name:focus,
+.email:focus,
+.subject:focus,
+.message:focus{
+    outline: var(--BORDER-FOUR);
+}
+
+.submit-btn{
+    background-color: var(--COLOR-FIVE);
+    color: var(--COLOR-SIX);
+    border: var(--BORDER-FIVE);
+    transition: all .25s linear;
+}
+
+.submit-btn:hover{
+    background-color: var(--COLOR-SIX);
+    color: var(--COLOR-FIVE);
+}

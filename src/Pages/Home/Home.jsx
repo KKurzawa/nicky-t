@@ -2,6 +2,7 @@ import './Home.css'
 import pic from '/Snakecharmers1.jpg'
 import UpcomingShows from '../../Components/UpcomingShows/UpcomingShows'
 import AudioPlayer from '../../Components/AudioPlayer/AudioPlayer'
+import Contact from '../../Components/Contact/Contact'
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
                 <UpcomingShows />
                 <AudioPlayer />
             </article>
+            <Contact />
         </main>
     )
 }

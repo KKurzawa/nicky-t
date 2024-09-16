@@ -29,4 +29,5 @@
 
 html{
   background-color: var(--COLOR-FIVE);
+  font-family: var(--FONT-ONE);
 }
