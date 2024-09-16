@@ -7,7 +7,7 @@ const MediaLinks = () => {
             {mediaLinksList.map((item) => (
                 <button
                     key={item.key}
-                    className='media-icon p-3 rounded-md'
+                    className='media-icon p-2 rounded-md'
                     onClick={() => setTimeout(() => {
                         window.open(item.link, '_blank')
                     }, 500)}>{item.icon}</button>

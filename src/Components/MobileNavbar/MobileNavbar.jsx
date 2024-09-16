@@ -20,11 +20,11 @@ const MobileNavbar = () => {
             />
             {isOpen &&
                 <motion.nav
-                    transition={{ duration: 1, type: 'spring', stiffness: 50 }}
-                    initial={{ top: '-15rem', left: 0 }}
-                    animate={{ top: '8rem' }}
-                    exit={{ top: '-15rem' }}
-                    className='mobile-nav-dropdown absolute flex flex-col gap-4 z-20 w-full h-[60rem] py-5'
+                    transition={{ duration: 1.5, type: 'spring', stiffness: 50 }}
+                    initial={{ top: '-15rem', left: 0, height: 0 }}
+                    animate={{ top: '7.5rem', height: '60rem' }}
+                    exit={{ top: '-15rem', height: 0 }}
+                    className='mobile-nav-dropdown absolute flex flex-col gap-4 z-20 w-full py-5'
                     id='dropdown' >
                     <article className='flex flex-col items-center gap-3 pb-4'>
                         {navLinks.map((item) => (

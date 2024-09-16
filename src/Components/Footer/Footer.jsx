@@ -3,7 +3,7 @@ import './Footer.css'
 const Footer = () => {
     const today = new Date();
     return (
-        <footer className='footer-main flex flex-col items-center py-5'>
+        <footer className='footer-main flex flex-col items-center py-3'>
             <button className='top-btn text-xl font-bold' onClick={() => setTimeout(() => {
                 const topButton = document.getElementById('top');
                 topButton.scrollIntoView({ behavior: 'smooth' })
