@@ -7,7 +7,7 @@ import LifeOnLifesTerms from '/LifeOnLifesTerms.jpg'
 const Home = () => {
     return (
         <main id='Home' className='home-main flex flex-col items-center'>
-            <h2 className='latest-album-title my-5 text-2xl font-bold'>LATEST ALBUM</h2>
+            <h2 className='latest-album-title mt-5 mb-2 text-2xl font-bold'>LATEST ALBUM</h2>
             <article className='home-pic-container flex justify-center w-[85%] md:w-[85%] lg:w-[75%] h-[85%] md:h-[85%] lg:h-[75%] mb-2 rounded-lg'>
                 <img src={LifeOnLifesTerms} className='home-band-pic w-[95%] h-[95%] py-2 md:py-6 rounded-lg' />
             </article>
@@ -16,7 +16,7 @@ const Home = () => {
                 onClick={() => setTimeout(() => {
                     window.open('https://www.google.com/', '__blank')
                 }, 500)}>Download</button>
-            <article className='grid grid-cols-2 justify-items-center w-full mb-10'>
+            <article className='flex flex-col items-center md:items-start md:grid grid-cols-2 justify-items-center w-full mb-10'>
                 <UpcomingShows />
                 <AudioPlayer />
             </article>

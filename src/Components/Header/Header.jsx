@@ -5,7 +5,7 @@ import MobileNavbar from '../MobileNavbar/MobileNavbar'
 
 const Header = () => {
     return (
-        <header id='top' className='header relative flex flex-col gap-5 py-5'>
+        <header id='top' className='header relative flex flex-col gap-1 pt-5 pb-3'>
             <article className='page-title-container flex flex-col items-center text-3xl md:text-6xl lg:text-7xl font-extrabold'>
                 <h1 className='nicky-t'>NICKY-T</h1>
                 <h2 className='and'>AND</h2>

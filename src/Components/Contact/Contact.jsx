@@ -44,7 +44,7 @@ const Contact = () => {
             })
     }
     return (
-        <article className='contact-main flex flex-col items-center md:w-[60%] lg:w-[40%] mb-10'>
+        <article className='contact-main flex flex-col items-center w-[80%] md:w-[60%] lg:w-[40%] mb-10'>
             <h2 className='contact-title mb-3 text-2xl font-bold'>CONTACT US</h2>
             <form onSubmit={handleSubmit} className='contact-form flex flex-col items-start w-full'>
                 <article className='contact-form-container flex flex-col w-full gap-2 text-xl'>
