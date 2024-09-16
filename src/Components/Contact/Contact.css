@@ -8,7 +8,7 @@
 .message{
     background-color: var(--COLOR-FIVE);
     color: var(--COLOR-SIX);
-    border: var(--BORDER-FIVE);
+    border: var(--BORDER-THREE);
     border-radius: .5rem;
     padding: 3px 7px;
     
@@ -25,13 +25,13 @@
 .email:focus,
 .subject:focus,
 .message:focus{
-    outline: var(--BORDER-FOUR);
+    outline: var(--BORDER-SEVEN);
 }
 
 .submit-btn{
     background-color: var(--COLOR-FIVE);
     color: var(--COLOR-SIX);
-    border: var(--BORDER-FIVE);
+    border: var(--BORDER-THREE);
     transition: all .25s linear;
 }
 

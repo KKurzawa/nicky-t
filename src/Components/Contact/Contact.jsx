@@ -44,7 +44,7 @@ const Contact = () => {
             })
     }
     return (
-        <article className='contact-main flex flex-col items-center w-[40%] mb-10'>
+        <article className='contact-main flex flex-col items-center md:w-[60%] lg:w-[40%] mb-10'>
             <h2 className='contact-title mb-3 text-2xl font-bold'>CONTACT US</h2>
             <form onSubmit={handleSubmit} className='contact-form flex flex-col items-start w-full'>
                 <article className='contact-form-container flex flex-col w-full gap-2 text-xl'>
@@ -53,18 +53,21 @@ const Contact = () => {
                         type='text'
                         placeholder='Your Name'
                         value={name}
+                        autoComplete='off'
                         onChange={(e) => setName(e.target.value)} />
                     <input
                         className='email'
                         type='text'
                         placeholder='Your Email'
                         value={email}
+                        autoComplete='off'
                         onChange={(e) => setEmail(e.target.value)} />
                     <input
                         className='subject'
                         type='text'
                         placeholder='Your Subject'
                         value={subject}
+                        autoComplete='off'
                         onChange={(e) => setSubject(e.target.value)} />
                     <textarea
                         className='message'
@@ -73,6 +76,7 @@ const Contact = () => {
                         type='text'
                         placeholder='Your Message'
                         value={message}
+                        autoComplete='off'
                         onChange={(e) => setMessage(e.target.value)} />
                 </article>
                 <button type='submit' className='submit-btn px-3 my-2 text-xl rounded-lg'>Submit</button>

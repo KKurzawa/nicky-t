@@ -1,0 +1,37 @@
+.latest-album-title,
+.latest-album-download-btn{
+    color: var(--COLOR-SIX)
+}
+
+.home-pic-container{
+    background-color: var(--COLOR-SIX);
+}
+
+.latest-album-download-btn{
+    position: relative;
+}
+
+.latest-album-download-btn::before{
+    position: absolute;
+    content: '';
+    border-bottom: var(--BORDER-FOUR);
+    width: 0;
+    bottom: 0;
+    left: 50%;
+    transition: all .25s linear;
+}
+
+.latest-album-download-btn::after{
+    position: absolute;
+    content: '';
+    border-bottom: var(--BORDER-FOUR);
+    width: 0;
+    bottom: 0;
+    right: 50%;
+    transition: all .25s linear;
+}
+
+.latest-album-download-btn:hover::before,
+.latest-album-download-btn:hover::after{
+    width: 50%;
+}
